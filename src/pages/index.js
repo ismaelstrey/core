@@ -22,7 +22,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Container><Card /><Card /></Container>
-        <Container><Card /><Card /></Container>
 
         <video autoPlay loop muted id='video' className={styles.video}>
           <source src='/mundo.mp4' type='video/mp4' />

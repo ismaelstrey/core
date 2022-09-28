@@ -126,11 +126,19 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
+@media (max-width:940px) {
+  .main {
     width: 100%;
-    flex-direction: column;
+    flex-direction: row;
   }
+
+  .video {
+    position: fixed;
+    width: auto;
+    height: 100vh;
+  }
+
+
 }
 
 @media (prefers-color-scheme: dark) {

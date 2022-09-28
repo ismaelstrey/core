@@ -3,6 +3,13 @@
     width: 80vw;
     flex-wrap: nowrap;
     align-content: space-around;
+}
+
+@media (max-width: 740px) {
+    .content {
+        width: 100%;
+        flex-direction: column;
+    }
 
 
 }
